@@ -11,11 +11,11 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml" {>= "5.1.0"}
+  "ocaml" {>= "5.5.0"}
   "async"
   "core"
   "ppx_jane"
-  "angstrom"       {>= "0.15.0"}
+  "angstrom" {>= "0.16.1"}
   "angstrom-async" {>= "0.15.0"}
   "dune"           {>= "3.17.0"}
 ]
